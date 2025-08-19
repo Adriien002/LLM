@@ -1,0 +1,7 @@
+name: forte
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - conda-forge::openjdk
+  - pip

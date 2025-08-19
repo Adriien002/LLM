@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "version": "0.0.2",
+        "time": "2024-02",
+        "author": "big_data_center"
+    },
+    "data": {
+        "CQ500p_INS_00001": {
+            "instruction": "You are an AI assistant specialized in radiology topics. You are provided with brain CT slices from a single study. The number of slices is 24. Please generate medical descriptions based on the images in a consistent style. Use the following guidelines: - Degree: Indicate the intensity or state (e.g., normal, mild, chronic, old, etc). - Landmark: Specify the area of interest (e.g., intracerebral, midline, parenchyma, sulci, etc). - Feature: Describe any observed abnormalities (e.g., hemorrhage, atrophy, infarcts, etc). - Impression: Conclude with a clinical impression (e.g., arteriosclerotic encephalopathy, intracerebral hemorrhage, dementia, etc). Ensure consistency and clarity in the report.",
+            "answer": "",
+            "image_ids": [
+                "ID_441cea72_ID_4b13324a92.nii_slice00",
+                "ID_441cea72_ID_4b13324a92.nii_slice01",
+                "ID_441cea72_ID_4b13324a92.nii_slice02",
+                "ID_441cea72_ID_4b13324a92.nii_slice03",
+                "ID_441cea72_ID_4b13324a92.nii_slice04",
+                "ID_441cea72_ID_4b13324a92.nii_slice05",
+                "ID_441cea72_ID_4b13324a92.nii_slice06",
+                "ID_441cea72_ID_4b13324a92.nii_slice07",
+                "ID_441cea72_ID_4b13324a92.nii_slice08",
+                "ID_441cea72_ID_4b13324a92.nii_slice09",
+                "ID_441cea72_ID_4b13324a92.nii_slice10",
+                "ID_441cea72_ID_4b13324a92.nii_slice11",
+                "ID_441cea72_ID_4b13324a92.nii_slice12",
+                "ID_441cea72_ID_4b13324a92.nii_slice13",
+                "ID_441cea72_ID_4b13324a92.nii_slice14",
+                "ID_441cea72_ID_4b13324a92.nii_slice15",
+                "ID_441cea72_ID_4b13324a92.nii_slice16",
+                "ID_441cea72_ID_4b13324a92.nii_slice17",
+                "ID_441cea72_ID_4b13324a92.nii_slice18",
+                "ID_441cea72_ID_4b13324a92.nii_slice19",
+                "ID_441cea72_ID_4b13324a92.nii_slice20",
+                "ID_441cea72_ID_4b13324a92.nii_slice21",
+                "ID_441cea72_ID_4b13324a92.nii_slice22",
+                "ID_441cea72_ID_4b13324a92.nii_slice23"
+
+            ],
+            "rel_ins_ids": []
+        },
+        "CQ500p_INS_00002": {
+            "instruction": "You are an AI assistant specialized in radiology topics. You are provided with brain CT slices from a single study. The number of slices is 24. Please generate medical descriptions based on the images in a consistent style. Use the following guidelines: - Degree: Indicate the intensity or state (e.g., normal, mild, chronic, old, etc). - Landmark: Specify the area of interest (e.g., intracerebral, midline, parenchyma, sulci, etc). - Feature: Describe any observed abnormalities (e.g., hemorrhage, atrophy, infarcts, etc). - Impression: Conclude with a clinical impression (e.g., arteriosclerotic encephalopathy, intracerebral hemorrhage, dementia, etc). Ensure consistency and clarity in the report.",
+            "answer": "",
+            "image_ids": [              
+                "ID_4519652e_ID_9d291c8ab5.nii_slice00",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice01",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice02",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice03",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice04",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice05",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice06",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice07",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice08",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice09",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice10",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice11",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice12",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice13",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice14",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice15",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice16",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice17",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice18",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice19",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice20",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice21",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice22",
+                "ID_4519652e_ID_9d291c8ab5.nii_slice23"
+
+            
+            ],
+            "rel_ins_ids": []
+        },
+        "CQ500p_INS_00003": {
+            "instruction": "You are an AI assistant specialized in radiology topics. You are provided with brain CT slices from a single study. The number of slices is 24. Please generate medical descriptions based on the images in a consistent style. Use the following guidelines: - Degree: Indicate the intensity or state (e.g., normal, mild, chronic, old, etc). - Landmark: Specify the area of interest (e.g., intracerebral, midline, parenchyma, sulci, etc). - Feature: Describe any observed abnormalities (e.g., hemorrhage, atrophy, infarcts, etc). - Impression: Conclude with a clinical impression (e.g., arteriosclerotic encephalopathy, intracerebral hemorrhage, dementia, etc). Ensure consistency and clarity in the report.",
+            "answer": "",
+            "image_ids": [
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice00",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice01",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice02",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice03",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice04",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice05",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice06",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice07",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice08",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice09",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice10",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice11",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice12",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice13",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice14",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice15",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice16",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice17",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice18",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice19",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice20",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice21",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice22",
+                "ID_46a4e5b5_ID_2a037d3a2e.nii_slice23"
+            ],
+            "rel_ins_ids": []
+        }
+    }
+}
