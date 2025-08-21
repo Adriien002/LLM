@@ -117,7 +117,7 @@ class SpotTheDifference(AbstractDataset): # "short_name" should be specified, an
     def __init__(
         self,
         name: str = "SpotTheDifference",
-        short_name="MED",
+        short_name="Adri",
         *,
         image_path: str,
         num_threads: int,
@@ -200,8 +200,8 @@ class SpotTheDifference(AbstractDataset): # "short_name" should be specified, an
 
         images = {}
         for id in tqdm(ids, desc="Reading images"):
-            i = int(id.split("_")[1])
-            if i < 7752:
+            # i = int(id.split("_")[1])
+            # if i < 7752:
                 try:
                     file_1 = get_path(id)
                     # file_2 = get_path(id + "_2")
