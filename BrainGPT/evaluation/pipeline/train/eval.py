@@ -507,7 +507,7 @@ def main():
         if "otter" in args.model_name.lower():
             model = OtterForConditionalGeneration.from_pretrained(
                 args.pretrained_model_name_or_path,
-                device_map=device_map,
+                device_map= None, #device_map,
                 local_files_only=args.offline,
             )
             args.tokenizer = model.text_tokenizer
@@ -761,6 +761,8 @@ def main():
 #         accelerator.state.deepspeed_plugin.deepspeed_config["train_micro_batch_size_per_gpu"] = args.batch_size
 
 #     device_id = accelerator.device
+    
+#     args.distributed_type = accelerator.distributed_type # ajoiut ligne ici !
 
 #     if args.pretrained_model_name_or_path is not None:
 #         accelerator.print(f"Loading pretrained model from {args.pretrained_model_name_or_path}")
@@ -779,7 +781,7 @@ def main():
 #     eval_loader = get_data(args, image_processor, tokenizer, "mimicit")
 #     # model = ...  # Load your model with the pretrained checkpoint
 #     # model.to(device_id)
-#     generated_captions = evaluate(model, eval_loader, tokenizer, device_id, accelerator)
+#     generated_captions = model.evaluate(model, eval_loader, tokenizer, device_id, accelerator)
 
 #     # 4. Save the generated captions to an Excel file
 #     df = pd.DataFrame(generated_captions, columns=["Generated Caption"])
