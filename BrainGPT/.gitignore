@@ -1,1 +1,9 @@
 braingpt_env/
+
+# Ignorer les fichiers temporaires de Python
+__pycache__/
+
+# Ignorer les dossiers de données et de sortie
+Dataset/
+data/
+output/
